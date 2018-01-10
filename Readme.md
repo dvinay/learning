@@ -53,5 +53,24 @@ public class SwaggerConfig {
 	- dis.adv: if you have chained multiple services then it increases the client waiting time ot if one node got failed to generate the data, the remaining node behaviour changes.
 ![Chained Pattern](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Chained_Pattern.png)
 
+- Branch Pattern
+	- Depending on business logic the component can change the chain
+	- It's like composition pattern
+	- Easy to adapt new changes in service
+![Branch Pattern](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Branch_Pattern.png)
+
+- Shared Resources
+	- With in Branch pattern, it can share the rest resources
+	- It's not sharing database tables, it's only sharing the database.
+![Shared Resources](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Shared_Resources.png)
+
+
+
+
+
+
+
+
+
 
 
