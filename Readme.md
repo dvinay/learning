@@ -64,6 +64,9 @@ public class SwaggerConfig {
 	- It's not sharing database tables, it's only sharing the database.
 ![Shared Resources](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Shared_Resources.png)
 
+- Async Messaging
+	- Som services are communicating using queues or async
+![Async Messaging](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Async_Messaging.png)
 
 
 
