@@ -38,7 +38,7 @@ public class SwaggerConfig {
 	- All independent services are called by a Aggregator component to combine the services result
 	- Aggregator component can be Load balance, the public exposer is Aggregator component
 	- Individual services are not exposed to outside
-![Aggregator Pattern](Aggregator_Pattern.png)
+![Aggregator Pattern](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Aggregator_Pattern.png)
 
 - Proxy Pattern
 	- Individual services with separate cache and DB
