@@ -45,13 +45,13 @@ public class SwaggerConfig {
 	- Instead of Aggregator component, It might have Proxy layer
 	- the major difference between Aggregator component and Proxy Pattern, Aggregator combines the result. Where as Proxy Component do data convertion like binary or format convertion like JSON format etc.
 	- Proxy component can be Load balance, the public exposer is Proxy component
-![Proxy Pattern](Proxy_Pattern.png)
+![Proxy Pattern](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Proxy_Pattern.png)
 
 - Chained Pattern
 	- It's like calling one service to other service
 	- Client sees only the one public service, but internally it may call multiple services to prepare the data
 	- dis.adv: if you have chained multiple services then it increases the client waiting time ot if one node got failed to generate the data, the remaining node behaviour changes.
-![Chained Pattern](Chained_Pattern.png)
+![Chained Pattern](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Chained_Pattern.png)
 
 
 
