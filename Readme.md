@@ -63,12 +63,20 @@ public class SwaggerConfig {
 - Shared Resources
 	- With in Branch pattern, it can share the rest resources
 	- It's not sharing database tables, it's only sharing the database.
-	
+
 ![Shared Resources](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Shared_Resources.png)
 
 - Async Messaging
-	- Som services are communicating using queues or async
+	- Som services are communicating using queues or async calls between services
 ![Async Messaging](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Async_Messaging.png)
+
+### Design Principles for Monoliths ###
+- DDD - Domain Driven Design
+- SoC using MVC - Separation of Concern
+- High cohesion, low Coupling
+- DRY
+- CoC - Convention over Configuration
+- Yagni - You aren't gonna need it [ref](https://martinfowler.com/bliki/Yagni.html)
 
 
 
