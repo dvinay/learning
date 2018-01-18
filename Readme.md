@@ -79,6 +79,112 @@ public class SwaggerConfig {
 - Yagni - You aren't gonna need it [ref](https://martinfowler.com/bliki/Yagni.html)
 
 
+- What is parallel system ?
+	- A parallel system consists of multiple processors that communicate with each other using shared memory.
+
+- What is distributed system ?
+	- The computer systems that contains multiple processors connected by a communication network.
+
+- What is process?
+	- When process has its own code and data, it is called a heavyviezght process, or simply a process.
+
+- What is thread?
+	- When processes share the addrcss space, namely, code and data, then they are called lightweight processes or threads. All threads share the address space but have their own local stack.
+
+- What is difference between Thread safety and Concurrence?
+	- Thread safety, is to protect shared data and code
+	- Concurrence, is to make it available
+
+- What is critical region?
+	- A section of the code that needs to be executed atomically is also called a critical region or a critical section.
+
+- Write a Java class that allows parallel search in an array of integer. It provides the following method:
+public static void parallelSearch(int x, int[] A, int numThreads)
+
+```JAVA
+public class Searcher implements Runnable {
+    private int intToFind;
+    private int startIndex;
+    private int endIndex;
+    private int[] arrayToSearchIn;
+
+    public Searcher(int x, int s, int e, int[] a) {
+        intToFind = x;
+        startIndex = s;
+        endIndex = e;
+        arrayToSearchIn = a;
+    }
+
+    public void run() {
+        for (int i = startIndex; i <= endIndex; i++) {
+            if (arrayToSearchIn[i] == intToFind) 
+            	System.out.println("Found x at index: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int[] a = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        int numberOfThreads = 5;
+        int x = 20;
+        findElement(numberOfThreads, x, a);
+    }
+
+    private static void parallelSearch(int x, int[] a,int numberOfThreads) {
+        int sizeOfa = a.length;
+        int range = sizeOfa/numberOfThreads;
+        for (int i = 0; i <= numberOfThreads-1; i++) {
+            Thread searcher;
+            if (i == numberOfThreads-1) {
+                searcher = new Thread(new Searcher(x, i*range, sizeOfa-1, a));
+            } else {
+                searcher = new Thread(new Searcher(x, i*range, i*range+range-1, a));
+            }
+            searcher.start();
+        }
+    }
+}
+```
+
+- Write java program using multi thread to generate Fibonacci number value for an interger
+
+```JAVA
+public class Fibonacci extends Thread { 
+	int n;
+	int result;
+	public Fibonacci (int ii) {
+		this.n=n; 
+	}
+	public void run () {
+		if ((n == O) || (n == 1)) result = 1;
+		else { 
+			Fibonacci f1 = new Fibonacci(n-1); 
+			Fibonacci f2 = new Fibonacci(n-2); 
+			f1.start();
+			f2. start ();
+			try {
+				f1.join(); 
+				f2.join ();
+			} catch ( InterruptrdException e ) { }
+			result = f1.getResult() + f2.getResult();
+		}
+}
+public int getResult (){
+	return result ;
+}
+public static void main(String [] args) {
+	Fibonacci f1 = new Fibonacci(Integer.parsrInt(args[O]));
+	f1.start();
+	try {
+		f1.join();
+	} catch (InterruptedException e ) { } ;
+	System.out.println("Answer is :" + f1.getResult 0)
+}
+```
+
+
+
 
 
 
