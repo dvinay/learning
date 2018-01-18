@@ -1,1 +1,2 @@
 - [Spring boot tutorials ref](http://www.springboottutorial.com/)
+- [Java Persistence Performance ](https://vladmihalcea.com/books/high-performance-java-persistence/)
