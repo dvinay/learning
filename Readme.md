@@ -220,12 +220,22 @@ class Cell {
 	public void swap(Cell x) { 
 		if (this==x)
 			return ;
-		else if(System.ideiitityHashCode( this ) < System.ideiitityHashCode(x)) 	doSwap(x);
+		else if(System.identityHashCode(this) 
+		< System.identityHashCode(x)) 	
+			doSwap(x);
 		else
 			x.doSwap(this);
 	}
 }
 ```
+
+
+
+
+
+
+
+
 
 
 
