@@ -183,7 +183,7 @@ public static void main(String [] args) {
 }
 ```
 
-- Dead lock with Example
+## Dead lock with Example ##
 ```JAVA
 class BCell { //can result a deadlocks int value;
 	public synchronized int getvalue () {
@@ -199,8 +199,13 @@ class BCell { //can result a deadlocks int value;
 	}
 }
 ```
+	
 	- Assume that we have two objects, p and q, as instances of class BCell. What happens if a thread t1 invokes p.swap(q) and another thread, say, t2, invokes q.swap(p) concurrently? Thread t1 acquires the lock for the monitor object p and t2 acquires the lock for the monitor object q. Now, thread t1 invokes q.getValue() as part of the swap method. This invocation has to wait because object q is locked by t2. Similarly, t2 has to wait for the lock for p, and we have a deadlock!
 
+- How to aviod Dead lock in the above situation
+```JAVA
+
+```
 
 
 
