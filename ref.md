@@ -1,2 +1,6 @@
 - [Spring boot tutorials ref](http://www.springboottutorial.com/)
 - [Java Persistence Performance ](https://vladmihalcea.com/books/high-performance-java-persistence/)
+- [Error/Exception Handling in Springboot REST ]
+    - [Ref-1 toptal] (https://www.toptal.com/java/spring-boot-rest-api-error-handling)
+    - [Ref-2 baeldung] (http://www.baeldung.com/exception-handling-for-rest-with-spring)
+    - [coding git] (https://github.com/brunocleite/spring-boot-exception-handling)
