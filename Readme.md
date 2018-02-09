@@ -70,6 +70,16 @@ public class SwaggerConfig {
 	- Som services are communicating using queues or async calls between services
 ![Async Messaging](https://github.com/dvinay/learning/blob/master/micorservice%20pattern%20images/Async_Messaging.png)
 
+- Mediator topology
+	- a star style topology. The mediator sends a message, get the reply and send other message based on the reply to the next Micro-Service.
+![Mediator topology]()
+
+- Broker topology
+	- a chain based topology. The messages are passed thru the Micro-Services. Each one will reply the outcome to the next one.
+![Broker topology]()
+
+
+
 ### Design Principles for Monoliths ###
 - DDD - Domain Driven Design
 - SoC using MVC - Separation of Concern
