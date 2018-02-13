@@ -238,7 +238,12 @@ class Cell {
 	}
 }
 ```
+- Can we Serialize and de-Serialize the complete JVM?
+No, JSR323 is a specification which has raised for strong mobility of JVM HotSpot.
 
+[JSR323](https://jcp.org/en/jsr/detail?id=323)
+There are some systems which provides container or cluster, where we can store the complete cluster and restore that.
+e.g: [terracotta](http://www.terracotta.org/)
 
 
 
