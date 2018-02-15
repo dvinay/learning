@@ -244,7 +244,9 @@ class Cell {
 	- There are some systems which provides container or cluster, where we can store the complete cluster and restore that. e.g: [terracotta](http://www.terracotta.org/)
 
 
-
+- Oauth2 step-by-step code and ref
+	- [Gihub code](https://github.com/dvinay/oauth2-step-by-step)
+	- [ref](http://www.swisspush.org/security/2016/10/17/oauth2-in-depth-introduction-for-enterprises)
 
 
 
