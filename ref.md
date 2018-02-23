@@ -8,3 +8,4 @@
     - [ref-1](https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50)
     - [ref-2](http://www.springboottutorial.com/securing-rest-services-with-spring-boot-starter-security)
     - [ref-3](http://automateddeveloper.blogspot.com/2014/03/securing-your-mobile-api-spring-security.html)
+    - [ref-4](http://web.archive.org/web/20130822184827/https://developers.google.com/accounts/docs/MobileApps)
