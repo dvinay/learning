@@ -4,3 +4,7 @@
     - [Ref-1 toptal](https://www.toptal.com/java/spring-boot-rest-api-error-handling)
     - [Ref-2 baeldung](http://www.baeldung.com/exception-handling-for-rest-with-spring)
     - [coding git](https://github.com/brunocleite/spring-boot-exception-handling)
+- Example code for spring security
+    - [ref-1] (https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50)
+    - [ref-2] (http://www.springboottutorial.com/securing-rest-services-with-spring-boot-starter-security)
+    - [ref-3] (http://automateddeveloper.blogspot.com/2014/03/securing-your-mobile-api-spring-security.html)
