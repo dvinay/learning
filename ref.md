@@ -8,4 +8,9 @@
     - [ref-1](https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50)
     - [ref-2](http://www.springboottutorial.com/securing-rest-services-with-spring-boot-starter-security)
     - [ref-3](http://automateddeveloper.blogspot.com/2014/03/securing-your-mobile-api-spring-security.html)
+        - [ref-4](https://github.com/robhinds/spring-four-template/)
     - [ref-4](http://web.archive.org/web/20130822184827/https://developers.google.com/accounts/docs/MobileApps)
+    - [ref-5](https://dzone.com/articles/secure-rest-services-using)
+- Example ref for load balancing concepts and code
+    - [ref-1 HAproxy loadbalancing](https://www.haproxy.com/blog/load-balancing-affinity-persistence-sticky-sessions-what-you-need-to-know/)
+    - []()
