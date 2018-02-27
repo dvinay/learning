@@ -17,3 +17,8 @@
 - Example ref for load balancing concepts and code
     - [ref HAproxy loadbalancing](https://www.haproxy.com/blog/load-balancing-affinity-persistence-sticky-sessions-what-you-need-to-know/)
     - [ref clientside vs server side load balancing](https://gooroo.io/GoorooTHINK/Article/17367/Spring-Cloud-and-Netflix-Ribbon-Clientside-Load-Balancing/28985#.WpCrGZM-dE4)
+
+- React Native ref 
+    - [Material design ux library](https://github.com/xotahal/react-native-material-ui)
+    - [React Native real world examples](https://github.com/jondot/awesome-react-native)
+    - [React Nativce Material kit](https://github.com/xinthink/react-native-material-kit)
