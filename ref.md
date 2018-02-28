@@ -13,11 +13,16 @@
         - [git code](https://github.com/robhinds/spring-four-template/)
     - [google ref for mobile application login design](http://web.archive.org/web/20130822184827/https://developers.google.com/accounts/docs/MobileApps)
     - [Dzone ref for rest security](https://dzone.com/articles/secure-rest-services-using)
-    
 - Example ref for load balancing concepts and code
     - [ref HAproxy loadbalancing](https://www.haproxy.com/blog/load-balancing-affinity-persistence-sticky-sessions-what-you-need-to-know/)
     - [ref clientside vs server side load balancing](https://gooroo.io/GoorooTHINK/Article/17367/Spring-Cloud-and-Netflix-Ribbon-Clientside-Load-Balancing/28985#.WpCrGZM-dE4)
 
+- Spring Security Tutorials
+    - [websystique](http://websystique.com/spring-security-tutorial/)
+    - [javawebtutor](http://javawebtutor.com/articles/spring/spring-security-tutorial.php)
+    - [mkyong](http://www.mkyong.com/tutorials/spring-security-tutorials/)
+    - [howtodoinjava](https://howtodoinjava.com/spring-security-tutorial/)
+    
 - React Native ref 
     - [Material design ux library](https://github.com/xotahal/react-native-material-ui)
     - [React Native real world examples](https://github.com/jondot/awesome-react-native)
