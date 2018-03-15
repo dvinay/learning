@@ -238,6 +238,10 @@ class Cell {
 	}
 }
 ```
+- Synchronization easy understanding examples?
+	- [Synch - part1](https://dzone.com/articles/how-synchronization-works-in-java-part-1)
+	- [Synch - part2](https://dzone.com/articles/how-synchronization-works-in-java-part-2)
+	
 - Can we Serialize and de-Serialize the complete JVM?
 	- No, JSR323 is a specification which has raised for strong mobility of JVM HotSpot.
 	- [JSR323](https://jcp.org/en/jsr/detail?id=323)
