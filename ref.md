@@ -28,3 +28,8 @@
     - [React Native real world examples](https://github.com/jondot/awesome-react-native)
     - [React Nativce Material kit](https://github.com/xinthink/react-native-material-kit)
     - [React Nativce Material design](http://react-native-material-design.github.io/)
+- React Native login screen desing ref
+    - [doc](https://medium.com/@alexmngn/the-essential-boilerplate-to-authenticate-users-on-your-react-native-app-f7a8e0e04a42)
+    - [git](https://github.com/alexmngn/react-native-authentication)
+    - [doc oauth with google+facebook](https://rationalappdev.com/logging-into-react-native-apps-with-facebook-or-google/)
+
